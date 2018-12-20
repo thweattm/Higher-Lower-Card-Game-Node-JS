@@ -1,0 +1,29 @@
+<div id="header">
+	<h3>Your Score: {{yourScore}} || {{compScore}}: Comp Score</h3>
+	<h3>Cards Remaining: {{remaining}}</h3>
+</div>
+
+<div id="gameboard">
+	<table>
+		<tr>
+			<td>Your Card:</td>
+			<td>Comp Card:</td>
+		</tr>
+		<tr>
+			<td><img src="{{yourCardImg}}"></td>
+			<td><img src="{{compCardImg}}"></td>
+		</tr>
+	</table>
+</div>
+
+<div id="buttons">
+	{{text}}
+	<br>
+	<form method="POST">
+		<input type="submit" name="higher" value="Higher">
+		<input type="submit" name="lower" value="Lower">
+		<br>
+		<input type="submit" name="nextCard" value="Next Card">
+		<input type="submit" name="newGame" value="New Game">
+	</form>
+</div>

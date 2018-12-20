@@ -1,0 +1,36 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+img {
+	max-height: 200px;
+}
+
+td {
+	text-align: center;
+}
+
+div {
+	background-color: #d9d9d9;
+	width: 50%;
+	border-radius: 10px;
+	margin-top:10px;
+	padding:10px;
+}
+
+#gameboard {
+	background-color: green;
+	color: white;
+}
+
+input[type="submit"] {
+	margin-top:5px;
+}
+
+/* Phone portrait (iPhone 7 = 667; Plus=736)*/
+@media only screen and (max-width: 736px){
+	div{
+		width: 95%;
+	}
+}
